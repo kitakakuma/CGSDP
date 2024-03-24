@@ -1,0 +1,2368 @@
+<root isBackward="false">
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/AntClassLoader.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Project.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/SubBuildListener.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildEvent.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/AntTypeDefinition.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/TypeAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Project.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/AntClassLoader.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/BuildEvent.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Project.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Task.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Target.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Location.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/BuildListener.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildEvent.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/BuildLogger.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildListener.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/ComponentHelper.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/MagicNames.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/AntTypeDefinition.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Project.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Task.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/TaskAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/ProjectHelper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/UnknownElement.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/DefaultLogger.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildLogger.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Project.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Task.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Target.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildEvent.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/DemuxInputStream.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Project.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/DemuxOutputStream.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Project.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/Diagnostics.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/MagicNames.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Project.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Main.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/DirectoryScanner.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/FileScanner.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/dispatch/Dispatchable.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/dispatch/DispatchTask.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/dispatch/Dispatchable.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/dispatch/DispatchUtils.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/dispatch/Dispatchable.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/DynamicAttribute.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/DynamicAttributeNS.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/DynamicConfigurator.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/DynamicAttribute.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/DynamicElement.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/DynamicConfiguratorNS.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/DynamicElementNS.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/DynamicAttributeNS.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/DynamicElement.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/DynamicElementNS.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/Executor.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Project.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/ExitException.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/ExitStatusException.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Location.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/FileScanner.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/filters/BaseFilterReader.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/filters/BaseParamFilterReader.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/BaseFilterReader.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/filters/ChainableReader.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/filters/ClassConstants.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/ChainableReader.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/BaseFilterReader.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/filters/ConcatFilter.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/BaseParamFilterReader.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/ChainableReader.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/filters/EscapeUnicode.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/BaseParamFilterReader.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/ChainableReader.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/filters/ExpandProperties.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/ChainableReader.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/BaseFilterReader.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/filters/FixCrLfFilter.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/BaseParamFilterReader.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/ChainableReader.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/filters/HeadFilter.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/BaseParamFilterReader.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/ChainableReader.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/filters/LineContains.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/BaseParamFilterReader.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/ChainableReader.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/filters/LineContainsRegExp.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/BaseParamFilterReader.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/ChainableReader.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/filters/PrefixLines.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/BaseParamFilterReader.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/ChainableReader.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/filters/ReplaceTokens.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/BaseParamFilterReader.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/ChainableReader.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/filters/StringInputStream.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/filters/StripJavaComments.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/ChainableReader.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/BaseFilterReader.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/filters/StripLineBreaks.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/BaseParamFilterReader.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/ChainableReader.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/filters/StripLineComments.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/BaseParamFilterReader.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/ChainableReader.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/filters/TabsToSpaces.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/BaseParamFilterReader.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/ChainableReader.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/filters/TailFilter.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/BaseParamFilterReader.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/ChainableReader.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/filters/TokenFilter.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/ChainableReader.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/filters/BaseFilterReader.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/filters/util/ChainReaderHelper.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/filters/util/JavaClassHelper.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/helper/AntXMLContext.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/helper/DefaultExecutor.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/helper/SingleCheckExecutor.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/helper/ProjectHelper2.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/helper/AntXMLContext.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/helper/ProjectHelperImpl.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/helper/SingleCheckExecutor.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/input/DefaultInputHandler.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/input/InputRequest.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/input/MultipleChoiceInputRequest.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/input/InputHandler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/input/GreedyInputHandler.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/input/DefaultInputHandler.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/input/InputRequest.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/input/InputHandler.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/input/InputRequest.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/input/InputRequest.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/input/MultipleChoiceInputRequest.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/input/InputRequest.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/input/PropertyFileInputHandler.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/input/InputRequest.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/input/InputHandler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/IntrospectionHelper.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/DynamicAttribute.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/ComponentHelper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/DynamicElementNS.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Project.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/DynamicAttributeNS.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/TaskContainer.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/UnsupportedElementException.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/DynamicElement.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/ProjectHelper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/UnsupportedAttributeException.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/UnknownElement.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/launch/AntMain.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/launch/Launcher.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/launch/Locator.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/launch/AntMain.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/launch/LaunchException.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/launch/LaunchException.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/launch/Locator.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/listener/AnsiColorLogger.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/listener/CommonsLoggingListener.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/listener/Log4jListener.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/listener/MailLogger.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/listener/TimestampedLogger.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/loader/AntClassLoader2.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/Location.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/MagicNames.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/Main.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/MagicNames.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Diagnostics.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildListener.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/DemuxInputStream.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Project.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildLogger.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/DemuxOutputStream.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Target.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/ExitStatusException.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/ProjectHelper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/DefaultLogger.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/NoBannerLogger.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Target.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildEvent.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/DefaultLogger.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/PathTokenizer.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/Project.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/PropertyHelper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/ProjectComponent.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildListener.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/IntrospectionHelper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Executor.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Task.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Main.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/AntClassLoader.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/UnknownElement.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/MagicNames.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/ComponentHelper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Target.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/SubBuildListener.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/TaskAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildEvent.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/ProjectComponent.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Location.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Project.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/ProjectHelper.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/MagicNames.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/PropertyHelper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Location.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/TypeAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/IntrospectionHelper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Project.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/PropertyHelper.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/MagicNames.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Project.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/RuntimeConfigurable.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/IntrospectionHelper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/TypeAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Task.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Project.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/ProjectHelper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/UnsupportedAttributeException.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/SubBuildListener.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildListener.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildEvent.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/Target.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Location.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Project.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Task.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/RuntimeConfigurable.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/TaskContainer.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/Task.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/ProjectComponent.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Location.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/RuntimeConfigurable.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Project.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Target.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/UnknownElement.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/TaskAdapter.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Location.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/TypeAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Task.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Project.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/TaskContainer.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Task.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/AbstractCvsTask.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecuteStreamHandler.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Execute.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/PumpStreamHandler.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/LogOutputStream.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/AbstractJarSignerTask.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecTask.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Ant.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Property.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Antlib.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/AntlibDefinition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/AntlibDefinition.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/AntStructure.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Apt.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Javac.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Available.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Basename.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/BuildNumber.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/BUnzip2.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Unpack.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/BZip2.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Pack.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/CallTarget.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Property.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Ant.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Checksum.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/MatchingTask.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Chmod.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Execute.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecuteOn.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Classloader.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/AptCompilerAdapter.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/DefaultCompilerAdapter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/AptExternalCompilerAdapter.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/AptCompilerAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/DefaultCompilerAdapter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/CompilerAdapter.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/CompilerAdapterFactory.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/Jvc.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/JavacExternal.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/Jikes.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/Javac13.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/Kjc.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/CompilerAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/Gcj.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/Sj.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/Javac12.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/DefaultCompilerAdapter.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/CompilerAdapter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/Gcj.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/DefaultCompilerAdapter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/Javac12.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/DefaultCompilerAdapter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/Javac13.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/DefaultCompilerAdapter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/JavacExternal.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/DefaultCompilerAdapter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/Jikes.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/DefaultCompilerAdapter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/Jvc.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/DefaultCompilerAdapter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/Kjc.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/DefaultCompilerAdapter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/Sj.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/compilers/DefaultCompilerAdapter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Concat.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/FixCRLF.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/StreamPumper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/LogOutputStream.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/And.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/ConditionBase.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/AntVersion.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/ConditionBase.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Or.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/IsTrue.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Os.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/IsFalse.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Contains.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/And.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/FilesMatch.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/IsFileSelected.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Http.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Not.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/IsReference.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/IsSet.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Socket.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Equals.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Contains.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Equals.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/FilesMatch.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/HasFreeSpace.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/HasMethod.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Http.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/IsFailure.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/IsFalse.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/IsFileSelected.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/IsReachable.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/IsReference.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/IsSet.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/IsSigned.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/IsTrue.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Matches.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Not.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/ConditionBase.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Or.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/ConditionBase.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Os.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/ParserSupports.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/ResourcesMatch.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Socket.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/TypeFound.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Xor.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/Condition.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/condition/ConditionBase.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ConditionTask.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Copy.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Copydir.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/MatchingTask.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Copyfile.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/CopyPath.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Cvs.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/AbstractCvsTask.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/ChangeLogParser.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/CVSEntry.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/ChangeLogTask.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/CvsUser.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/ChangeLogWriter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/CVSEntry.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/ChangeLogParser.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/CvsVersion.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/RedirectingStreamHandler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/ChangeLogWriter.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/CVSEntry.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/RCSFile.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/CVSEntry.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/RCSFile.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/CvsTagDiff.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/CvsTagEntry.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/CvsTagEntry.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/CvsUser.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/CvsVersion.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/RCSFile.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/RedirectingOutputStream.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/ChangeLogParser.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/RedirectingStreamHandler.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/ChangeLogParser.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/cvslib/RedirectingOutputStream.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/CVSPass.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/DefaultExcludes.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/DefBase.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/AntlibDefinition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Definer.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/DefBase.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Antlib.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Delete.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/MatchingTask.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Deltree.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/DependSet.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Delete.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/MatchingTask.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/DiagnosticsTask.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Dirname.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Ear.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Jar.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Echo.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/EchoXML.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/LogOutputStream.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/email/EmailAddress.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/email/EmailTask.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/email/Header.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/email/EmailAddress.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/email/PlainMailer.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/email/Message.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/email/Mailer.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/email/Header.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/email/Mailer.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/email/EmailAddress.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/email/Message.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/email/Message.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/email/MimeMailer.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/email/Header.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/email/EmailAddress.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/email/Message.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/email/Mailer.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/email/PlainMailer.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/email/Header.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/email/Mailer.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/email/UUMailer.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/email/PlainMailer.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Exec.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecTask.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecuteStreamHandler.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Execute.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecuteWatchdog.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Redirector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Execute.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecuteStreamHandler.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecuteWatchdog.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/PumpStreamHandler.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ProcessDestroyer.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/LogStreamHandler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecuteJava.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecuteStreamHandler.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Execute.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecuteWatchdog.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Redirector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecuteOn.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecTask.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecuteStreamHandler.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Execute.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/PumpStreamHandler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecuteStreamHandler.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecuteWatchdog.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Exit.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Expand.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Filter.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/FixCRLF.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/MatchingTask.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/GenerateKey.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecTask.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Get.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/GUnzip.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Unpack.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/GZip.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Pack.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ImportTask.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Input.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/DefBase.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Jar.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ManifestException.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Manifest.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Zip.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Java.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Execute.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecuteWatchdog.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Redirector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecuteJava.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Javac.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/MatchingTask.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Javadoc.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Execute.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/PumpStreamHandler.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/LogOutputStream.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/JDBCTask.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Jikes.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Execute.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/JikesOutputParser.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/JikesOutputParser.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecuteStreamHandler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/KeySubst.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Length.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/LogOutputStream.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/LoadFile.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/LoadResource.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/LoadProperties.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Property.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/LoadResource.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/LogOutputStream.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/LogStreamHandler.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/PumpStreamHandler.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/LogOutputStream.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/MacroDef.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/MacroInstance.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/AntlibDefinition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/MacroInstance.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/MacroDef.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/MakeUrl.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Manifest.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ManifestException.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ManifestClassPath.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ManifestException.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ManifestTask.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ManifestException.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Manifest.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/MatchingTask.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Mkdir.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Move.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Copy.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Nice.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ANTLR.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/Cab.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ccm/CCMCheck.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ccm/Continuus.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ccm/CCMCheckin.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ccm/CCMCheck.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ccm/CCMCheckinDefault.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ccm/CCMCheck.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ccm/CCMCheckout.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ccm/CCMCheck.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ccm/CCMCreateTask.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ccm/Continuus.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ccm/CCMReconfigure.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ccm/Continuus.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ccm/Continuus.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/CCCheckin.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/ClearCase.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/CCCheckout.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/ClearCase.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/CCLock.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/ClearCase.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/CCMkattr.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/ClearCase.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/CCMkbl.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/ClearCase.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/CCMkdir.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/ClearCase.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/CCMkelem.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/ClearCase.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/CCMklabel.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/ClearCase.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/CCMklbtype.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/ClearCase.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/CCRmtype.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/ClearCase.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/CCUnCheckout.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/ClearCase.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/CCUnlock.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/ClearCase.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/CCUpdate.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/ClearCase.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/clearcase/ClearCase.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/AntAnalyzer.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/ClassFile.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/ClassFile.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/ClassFileUtils.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/ClassFileIterator.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/ClassFile.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/ClassFileUtils.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ClassCPInfo.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/Utf8CPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPoolEntry.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantCPInfo.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPoolEntry.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPool.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ClassCPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/NameAndTypeCPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/MethodRefCPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantCPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/Utf8CPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/InterfaceMethodRefCPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/FieldRefCPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPoolEntry.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPoolEntry.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/FloatCPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ClassCPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/NameAndTypeCPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/StringCPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/MethodRefCPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/Utf8CPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/IntegerCPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/LongCPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/DoubleCPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/InterfaceMethodRefCPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/FieldRefCPInfo.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/DoubleCPInfo.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantCPInfo.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/FieldRefCPInfo.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ClassCPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/NameAndTypeCPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPoolEntry.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/FloatCPInfo.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantCPInfo.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/IntegerCPInfo.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantCPInfo.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/InterfaceMethodRefCPInfo.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ClassCPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/NameAndTypeCPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPoolEntry.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/LongCPInfo.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantCPInfo.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/MethodRefCPInfo.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ClassCPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/NameAndTypeCPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPoolEntry.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/NameAndTypeCPInfo.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/Utf8CPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPoolEntry.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/StringCPInfo.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantCPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/Utf8CPInfo.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPoolEntry.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/Utf8CPInfo.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/constantpool/ConstantPoolEntry.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/Depend.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/AntAnalyzer.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/ClassFileUtils.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/DirectoryIterator.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/ClassFile.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/ClassFileIterator.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/JarFileIterator.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/ClassFile.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/depend/ClassFileIterator.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/CSharp.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/DotnetCompile.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/NetCommand.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/DotnetResource.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/DotnetBaseMatchingTask.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/NetCommand.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/DotnetCompile.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/DotnetBaseMatchingTask.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/DotnetDefine.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/DotnetResource.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/NetCommand.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/DotnetDefine.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/DotnetResource.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/NetCommand.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/Ilasm.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/DotnetBaseMatchingTask.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/NetCommand.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/Ildasm.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/NetCommand.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/ImportTypelib.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/NetCommand.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/JSharp.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/DotnetCompile.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/NetCommand.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/DotnetResource.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/NetCommand.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/VisualBasicCompile.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/DotnetCompile.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/NetCommand.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/DotnetResource.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/WsdlToDotnet.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/dotnet/NetCommand.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/EchoProperties.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/BorlandDeploymentTool.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/DescriptorHandler.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/GenericDeploymentTool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/BorlandGenerateClient.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/BorlandGenerateClient.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/BorlandDeploymentTool.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/DescriptorHandler.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/EJBDeploymentTool.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/EJBDeploymentTool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/WeblogicDeploymentTool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/BorlandDeploymentTool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/WeblogicTOPLinkDeploymentTool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/JonasDeploymentTool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/WebsphereDeploymentTool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/GenericDeploymentTool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/IPlanetDeploymentTool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/JbossDeploymentTool.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/GenericDeploymentTool.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/DescriptorHandler.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/EJBDeploymentTool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/InnerClassFilenameFilter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/InnerClassFilenameFilter.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/IPlanetDeploymentTool.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/GenericDeploymentTool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/IPlanetEjbc.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/IPlanetEjbc.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/IPlanetEjbcTask.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/IPlanetEjbc.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/JbossDeploymentTool.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/GenericDeploymentTool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/JonasDeploymentTool.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/DescriptorHandler.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/GenericDeploymentTool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/WeblogicDeploymentTool.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/DescriptorHandler.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/GenericDeploymentTool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/WeblogicTOPLinkDeploymentTool.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/DescriptorHandler.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/WeblogicDeploymentTool.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/WebsphereDeploymentTool.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/DescriptorHandler.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/GenericDeploymentTool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ejb/EjbJar.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/Compatability.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/Compatibility.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/DeweyDecimal.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/Extension.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/DeweyDecimal.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/Compatibility.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/ExtensionAdapter.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/DeweyDecimal.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/Extension.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/ExtensionResolver.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/Extension.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/ExtensionSet.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/LibFileSet.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/ExtensionAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/ExtensionUtil.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/Extension.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/ExtensionUtil.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/LibFileSet.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/DeweyDecimal.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/ExtensionAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/Extension.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/ExtraAttribute.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/JarLibAvailableTask.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/ExtensionSet.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/ExtensionAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/ExtensionUtil.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/Extension.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/JarLibDisplayTask.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/LibraryDisplayer.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/JarLibManifestTask.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/ExtensionSet.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/ExtraAttribute.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/ExtensionAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/Extension.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/JarLibResolveTask.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/ExtensionAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/ExtensionUtil.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/Extension.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/ExtensionResolver.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/LibFileSet.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/LibraryDisplayer.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/ExtensionUtil.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/Extension.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/Specification.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/resolvers/AntResolver.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/resolvers/LocationResolver.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/resolvers/URLResolver.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/Specification.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/DeweyDecimal.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/extension/Compatibility.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/i18n/Translate.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/j2ee/AbstractHotDeploymentTool.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/j2ee/ServerDeploy.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/j2ee/HotDeploymentTool.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/j2ee/GenericHotDeploymentTool.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/j2ee/ServerDeploy.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/j2ee/AbstractHotDeploymentTool.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/j2ee/HotDeploymentTool.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/j2ee/ServerDeploy.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/j2ee/JonasHotDeploymentTool.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/j2ee/GenericHotDeploymentTool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/j2ee/HotDeploymentTool.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/j2ee/ServerDeploy.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/j2ee/GenericHotDeploymentTool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/j2ee/HotDeploymentTool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/j2ee/WebLogicHotDeploymentTool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/j2ee/JonasHotDeploymentTool.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/j2ee/WebLogicHotDeploymentTool.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/j2ee/ServerDeploy.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/j2ee/HotDeploymentTool.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/j2ee/AbstractHotDeploymentTool.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/javacc/JavaCC.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/javacc/JJDoc.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/javacc/JavaCC.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/javacc/JJTree.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/javacc/JavaCC.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/Javah.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/javah/JavahAdapter.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/javah/JavahAdapterFactory.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/javah/Kaffeh.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/javah/JavahAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/javah/SunJavah.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/javah/Kaffeh.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/javah/JavahAdapter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/javah/SunJavah.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/javah/JavahAdapter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/jdepend/JDependTask.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/jlink/ClassNameReader.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/jlink/jlink.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/jlink/ClassNameReader.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/jlink/JlinkTask.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/jlink/jlink.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/jsp/compilers/DefaultJspCompilerAdapter.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/jsp/compilers/JspCompilerAdapter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/jsp/compilers/JasperC.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/jsp/compilers/DefaultJspCompilerAdapter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/jsp/compilers/JspCompilerAdapter.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/jsp/compilers/JspCompilerAdapterFactory.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/jsp/compilers/JspCompilerAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/jsp/compilers/JasperC.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/jsp/Jasper41Mangler.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/jsp/JspMangler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/jsp/JspC.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/jsp/JspMangler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/jsp/JspMangler.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/jsp/JspNameMangler.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/jsp/JspMangler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/jsp/WLJspc.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/AggregateTransformer.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/XMLResultAggregator.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/BriefJUnitResultFormatter.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitResultFormatter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/Constants.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/DOMUtil.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/Enumerations.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/FormatterElement.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitTaskMirror.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitResultFormatter.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitTaskMirror.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/Enumerations.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/FormatterElement.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitTaskMirror.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/Constants.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitTaskMirror.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitTaskMirrorImpl.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/SummaryJUnitResultFormatter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitTaskMirror.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitResultFormatter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitTask.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/FormatterElement.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitVersionHelper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitTaskMirror.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitResultFormatter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/Constants.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitVersionHelper.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitTaskMirrorImpl.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/OutErrSummaryJUnitResultFormatter.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/SummaryJUnitResultFormatter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/PlainJUnitResultFormatter.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitVersionHelper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitResultFormatter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/SummaryJUnitResultFormatter.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitResultFormatter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitTaskMirror.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/Xalan2Executor.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/XalanExecutor.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/XalanExecutor.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/AggregateTransformer.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/XMLConstants.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/XMLJUnitResultFormatter.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitTestRunner.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/XMLConstants.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitVersionHelper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/JUnitResultFormatter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/XMLResultAggregator.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/AggregateTransformer.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/DOMUtil.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/junit/XMLConstants.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/Native2Ascii.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/native2ascii/DefaultNative2Ascii.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/native2ascii/Native2AsciiAdapter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/native2ascii/KaffeNative2Ascii.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/native2ascii/DefaultNative2Ascii.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/native2ascii/Native2AsciiAdapter.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/native2ascii/Native2AsciiAdapterFactory.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/native2ascii/KaffeNative2Ascii.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/native2ascii/SunNative2Ascii.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/native2ascii/Native2AsciiAdapter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/native2ascii/SunNative2Ascii.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/native2ascii/DefaultNative2Ascii.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/net/MimeMail.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/net/SetProxy.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/FStatP4OutputHandler.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4HandlerAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Fstat.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Add.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Base.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/SimpleP4OutputHandler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Base.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/SimpleP4OutputHandler.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Handler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Change.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Base.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4HandlerAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Handler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Counter.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Base.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4HandlerAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/SimpleP4OutputHandler.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Handler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Delete.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Base.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/SimpleP4OutputHandler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Edit.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Base.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/SimpleP4OutputHandler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Fstat.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Base.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/FStatP4OutputHandler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Handler.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4HandlerAdapter.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4OutputStream.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Handler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Have.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Base.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/SimpleP4OutputHandler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Integrate.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Base.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/SimpleP4OutputHandler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Label.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Base.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4HandlerAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Handler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Labelsync.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Base.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/SimpleP4OutputHandler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4OutputHandler.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4OutputStream.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Handler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Reopen.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Base.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/SimpleP4OutputHandler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Resolve.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Base.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/SimpleP4OutputHandler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Revert.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Base.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/SimpleP4OutputHandler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Submit.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Base.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4HandlerAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/SimpleP4OutputHandler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Sync.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Base.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/SimpleP4OutputHandler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/SimpleP4OutputHandler.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4Base.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/perforce/P4HandlerAdapter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/PropertyFile.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/pvcs/Pvcs.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/pvcs/PvcsProject.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/pvcs/PvcsProject.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/RenameExtensions.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ReplaceRegExp.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/Rpm.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/SchemaValidate.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/XMLValidateTask.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/Script.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/script/ScriptDef.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/script/ScriptDefBase.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/script/ScriptDefBase.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/script/ScriptDef.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/sos/SOS.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/sos/SOSCmd.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/sos/SOSCheckin.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/sos/SOSCmd.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/sos/SOS.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/sos/SOSCheckout.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/sos/SOSCmd.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/sos/SOS.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/sos/SOSCmd.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/sos/SOSGet.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/sos/SOSCmd.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/sos/SOS.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/sos/SOSLabel.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/sos/SOSCmd.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/sos/SOS.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/sound/AntSoundPlayer.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/sound/SoundTask.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/sound/AntSoundPlayer.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/splash/SplashScreen.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/splash/SplashTask.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/splash/SplashScreen.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/AbstractSshMessage.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/LogListener.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/Directory.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/LogListener.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/Scp.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/ScpToMessage.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/SSHBase.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/ScpToMessageBySftp.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/ScpFromMessage.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/Directory.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/ScpFromMessageBySftp.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/ScpFromMessage.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/AbstractSshMessage.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/ScpFromMessageBySftp.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/ScpFromMessage.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/ScpToMessage.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/AbstractSshMessage.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/Directory.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/ScpToMessageBySftp.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/ScpToMessage.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/Directory.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/SSHBase.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/LogListener.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/SSHUserInfo.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/SSHExec.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/SSHBase.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/ssh/SSHUserInfo.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/TraXLiaison.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/unix/AbstractAccessTask.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/unix/Chgrp.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/unix/AbstractAccessTask.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/unix/Chown.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/unix/AbstractAccessTask.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/unix/Symlink.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/vss/MSVSSConstants.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/vss/MSVSSADD.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/vss/MSVSSCHECKIN.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/vss/MSVSSCHECKOUT.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/vss/MSVSSConstants.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/vss/MSVSSCP.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/vss/MSVSSCREATE.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/vss/MSVSSGET.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/vss/MSVSSHISTORY.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/vss/MSVSSLABEL.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/vss/MSVSS.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/windows/Attrib.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/optional/XMLValidateTask.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Pack.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Parallel.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Patch.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Execute.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/LogStreamHandler.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/PathConvert.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/PreSetDef.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/AntlibDefinition.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ProcessDestroyer.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Property.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Execute.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/PumpStreamHandler.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecuteStreamHandler.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/StreamPumper.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Recorder.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/RecorderEntry.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/RecorderEntry.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Redirector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecuteStreamHandler.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Execute.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/StreamPumper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/PumpStreamHandler.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/LogOutputStream.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Rename.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Replace.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/MatchingTask.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ResourceCount.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Rmic.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/MatchingTask.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/rmic/DefaultRmicAdapter.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/rmic/RmicAdapter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/rmic/ForkingSunRmic.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/rmic/DefaultRmicAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/rmic/SunRmic.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/rmic/KaffeRmic.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/rmic/DefaultRmicAdapter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/rmic/RmicAdapter.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/rmic/RmicAdapterFactory.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/rmic/ForkingSunRmic.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/rmic/SunRmic.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/rmic/KaffeRmic.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/rmic/RmicAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/rmic/WLRmic.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/rmic/XNewRmic.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/rmic/SunRmic.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/rmic/DefaultRmicAdapter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/rmic/WLRmic.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/rmic/DefaultRmicAdapter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/rmic/XNewRmic.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/rmic/ForkingSunRmic.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/SendEmail.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Sequential.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/SignJar.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecTask.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/AbstractJarSignerTask.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Sleep.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/SQLExec.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/JDBCTask.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/StreamPumper.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/StreamPumper.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/SubAnt.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Property.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Ant.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Sync.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Copy.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Tar.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Copy.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/MatchingTask.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Taskdef.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Typedef.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/TaskOutputStream.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/TempFile.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Touch.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Transform.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecuteOn.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Tstamp.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Typedef.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Definer.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Unpack.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Untar.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Expand.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/UpToDate.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/VerifyJar.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/ExecTask.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/AbstractJarSignerTask.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/WaitFor.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/War.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Jar.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/WhichResource.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/XmlProperty.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/XSLTLiaison.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/XSLTLiaison2.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/XSLTProcess.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/XSLTLiaison.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/XSLTLiaison3.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/XSLTLiaison2.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/XSLTLogger.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/XSLTLoggerAware.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/XSLTLogger.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/XSLTProcess.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/XSLTLiaison2.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/XSLTLoggerAware.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/XSLTLiaison.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/MatchingTask.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/XSLTLiaison3.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/XSLTLogger.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/Zip.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/taskdefs/MatchingTask.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/TypeAdapter.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Project.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/AbstractFileSet.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/PatternSet.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Reference.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/DataType.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/AntFilterReader.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Parameter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Reference.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/DataType.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Path.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/ArchiveFileSet.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Resource.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/ArchiveScanner.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/ResourceCollection.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/FileSet.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/ArchiveScanner.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Resource.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/Assertions.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Commandline.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/CommandlineJava.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Reference.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/DataType.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/Commandline.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Reference.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Path.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/CommandlineJava.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Commandline.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/PropertySet.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Assertions.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Environment.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Path.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/Comparison.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/EnumeratedAttribute.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/DataType.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Reference.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/Description.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/DataType.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/DirSet.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/ResourceCollection.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/AbstractFileSet.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/DTDLocation.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/ResourceLocation.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/EnumeratedAttribute.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/Environment.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Path.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/FileList.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Reference.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/ResourceCollection.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/DataType.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/FileSet.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/ResourceCollection.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/AbstractFileSet.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/FilterChain.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/AntFilterReader.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Reference.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/DataType.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/FilterSet.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/EnumeratedAttribute.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/DataType.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/FilterSetCollection.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/FilterSet.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/FlexInteger.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/LogLevel.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/EnumeratedAttribute.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/Mapper.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/EnumeratedAttribute.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Reference.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/DataType.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Path.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/mappers/FilterMapper.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/optional/AbstractScriptComponent.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/optional/depend/ClassfileSet.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/optional/depend/DependScanner.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/optional/depend/DependScanner.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/optional/ScriptCondition.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/optional/AbstractScriptComponent.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/optional/ScriptFilter.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/optional/ScriptMapper.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/optional/AbstractScriptComponent.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/optional/ScriptSelector.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/Parameter.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/Parameterizable.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Parameter.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/Path.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/DirSet.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Reference.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/ResourceCollection.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/FileList.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/DataType.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/FileSet.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/PatternSet.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Reference.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/DataType.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/Permissions.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/PropertySet.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/EnumeratedAttribute.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Reference.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/ResourceCollection.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/DataType.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Mapper.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/Quantifier.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/EnumeratedAttribute.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/RedirectorElement.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Reference.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/DataType.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Mapper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/FilterChain.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/Reference.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/RegularExpression.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/DataType.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resolver/ApacheCatalog.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resolver/ApacheCatalogResolver.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resolver/ApacheCatalogResolver.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resolver/ApacheCatalog.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/Resource.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Reference.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/ResourceCollection.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/DataType.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/ResourceCollection.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/ResourceFactory.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Resource.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/ResourceLocation.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/ArchiveResource.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/FileResource.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/BaseResourceCollectionContainer.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/FailFast.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/FileResource.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/BaseResourceCollectionWrapper.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/FailFast.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/BaseResourceCollectionContainer.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/FileResource.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/BCFileSet.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/FileResourceIterator.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/BZip2Resource.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/CompressedResource.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/comparators/Content.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/comparators/ResourceComparator.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/comparators/Date.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/comparators/ResourceComparator.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/comparators/DelegatedResourceComparator.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/comparators/ResourceComparator.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/comparators/Exists.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/comparators/ResourceComparator.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/comparators/FileSystem.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/comparators/ResourceComparator.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/comparators/Name.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/comparators/ResourceComparator.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/comparators/ResourceComparator.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/comparators/Reverse.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/comparators/ResourceComparator.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/comparators/Size.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/comparators/ResourceComparator.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/comparators/Type.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/comparators/ResourceComparator.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/CompressedResource.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/Difference.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/BaseResourceCollectionContainer.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/FailFast.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/FileResource.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/Touchable.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/FileResourceIterator.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/FileResource.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/Files.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/FileResourceIterator.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/First.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/GZipResource.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/CompressedResource.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/ImmutableResourceException.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/Intersect.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/BaseResourceCollectionContainer.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/JavaResource.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/PropertyResource.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/ImmutableResourceException.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/Resources.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/FailFast.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/Restrict.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/BaseResourceCollectionWrapper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/FailFast.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/And.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/ResourceSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/ResourceSelectorContainer.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/Compare.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/ResourceSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/Date.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/ResourceSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/Exists.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/ResourceSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/InstanceOf.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/ResourceSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/Majority.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/ResourceSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/ResourceSelectorContainer.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/Name.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/ResourceSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/None.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/ResourceSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/ResourceSelectorContainer.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/Not.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/ResourceSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/Or.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/ResourceSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/ResourceSelectorContainer.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/ResourceSelector.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/ResourceSelectorContainer.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/ResourceSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/Size.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/ResourceSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/Type.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/selectors/ResourceSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/Sort.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/BaseResourceCollectionWrapper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/FailFast.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/StringResource.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/ImmutableResourceException.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/TarResource.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/ArchiveResource.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/Tokens.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/BaseResourceCollectionWrapper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/StringResource.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/Touchable.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/Union.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/BaseResourceCollectionContainer.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/URLResource.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/ZipResource.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/ArchiveResource.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/resources/FileResource.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/AbstractSelectorContainer.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/NotSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/DependSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/SizeSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/SelectSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/DateSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/TypeSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/BaseSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/PresentSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/FilenameSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/MajoritySelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/FileSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/DifferentSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/OrSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/ExtendSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/AndSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/DepthSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/NoneSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/ContainsRegexpSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/ContainsSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/SelectorContainer.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/AndSelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/BaseSelectorContainer.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/FileSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/BaseExtendSelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/ExtendFileSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/BaseSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/BaseSelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/FileSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/BaseSelectorContainer.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/NotSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/DependSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/SizeSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/SelectSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/DateSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/TypeSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/BaseSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/PresentSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/FilenameSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/MajoritySelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/FileSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/DifferentSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/OrSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/ExtendSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/AndSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/DepthSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/NoneSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/ContainsRegexpSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/ContainsSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/SelectorContainer.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/ContainsRegexpSelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/BaseExtendSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/ContainsSelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/SelectorUtils.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/BaseExtendSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/DateSelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/BaseExtendSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/DependSelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/MappingSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/SelectorUtils.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/DepthSelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/BaseExtendSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/DifferentSelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/MappingSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/ExtendFileSelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/FileSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/ExtendSelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/FileSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/ExtendFileSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/BaseSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/FilenameSelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/SelectorUtils.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/BaseExtendSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/FileSelector.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/MajoritySelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/BaseSelectorContainer.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/FileSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/MappingSelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/BaseSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/modifiedselector/Algorithm.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/modifiedselector/Cache.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/modifiedselector/ChecksumAlgorithm.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/modifiedselector/Algorithm.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/modifiedselector/DigestAlgorithm.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/modifiedselector/Algorithm.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/modifiedselector/EqualComparator.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/modifiedselector/HashvalueAlgorithm.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/modifiedselector/Algorithm.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/modifiedselector/ModifiedSelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/modifiedselector/EqualComparator.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/modifiedselector/ChecksumAlgorithm.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/modifiedselector/Algorithm.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/modifiedselector/Cache.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/modifiedselector/DigestAlgorithm.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/modifiedselector/HashvalueAlgorithm.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/modifiedselector/PropertiesfileCache.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/modifiedselector/PropertiesfileCache.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/modifiedselector/Cache.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/NoneSelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/BaseSelectorContainer.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/FileSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/NotSelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/FileSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/NoneSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/OrSelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/BaseSelectorContainer.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/FileSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/PresentSelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/BaseSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/SelectorContainer.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/NotSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/DependSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/SizeSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/SelectSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/DateSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/TypeSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/PresentSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/FilenameSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/MajoritySelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/FileSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/DifferentSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/OrSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/ExtendSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/AndSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/DepthSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/NoneSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/ContainsRegexpSelector.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/ContainsSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/SelectorScanner.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/FileSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/SelectorUtils.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/SelectSelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/BaseSelectorContainer.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/FileSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/SignedSelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/FileSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/SizeSelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/BaseExtendSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/TypeSelector.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/selectors/BaseExtendSelector.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/spi/Provider.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/spi/Service.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/spi/Provider.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/Substitution.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/DataType.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/TarFileSet.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/ArchiveScanner.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/TarScanner.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/ArchiveFileSet.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Reference.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/FileSet.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/AbstractFileSet.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/TarScanner.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Resource.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/ArchiveScanner.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/TimeComparison.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/EnumeratedAttribute.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/XMLCatalog.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Reference.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/ResourceLocation.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/DataType.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Path.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/ZipFileSet.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/ZipScanner.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/ArchiveScanner.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/ArchiveFileSet.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/FileSet.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/AbstractFileSet.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/types/ZipScanner.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/Resource.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/types/ArchiveScanner.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/UnknownElement.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/ProjectComponent.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/ComponentHelper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/TypeAdapter.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/IntrospectionHelper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Task.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/RuntimeConfigurable.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Project.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/TaskContainer.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/UnsupportedElementException.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Target.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/ProjectHelper.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/UnsupportedAttributeException.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/UnsupportedElementException.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/Base64Converter.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/ChainedMapper.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/FileNameMapper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/ContainerMapper.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/ClasspathUtils.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/CollectionUtils.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/CompositeMapper.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/FileNameMapper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/ContainerMapper.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/ConcatFileInputStream.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/FileUtils.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/ConcatResourceInputStream.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/FileUtils.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/ContainerMapper.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/FileNameMapper.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/DateUtils.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/depend/AbstractAnalyzer.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/depend/DependencyAnalyzer.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/depend/bcel/AncestorAnalyzer.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/depend/bcel/DependencyVisitor.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/depend/bcel/FullAnalyzer.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/depend/bcel/DependencyVisitor.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/depend/DependencyAnalyzer.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/DeweyDecimal.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/StringTokenizer.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/DOMElementWriter.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/DOMUtils.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/JAXPUtils.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/facade/FacadeTaskHelper.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/facade/ImplementationSpecificArgument.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/facade/ImplementationSpecificArgument.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/FileNameMapper.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/FileTokenizer.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/FileUtils.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/Tokenizer.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/FileUtils.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/ResourceUtils.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/StringUtils.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/StringTokenizer.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/FlatFileNameMapper.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/FileNameMapper.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/GlobPatternMapper.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/FileNameMapper.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/IdentityMapper.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/FileNameMapper.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/IdentityStack.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/java15/ProxyDiagnostics.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/JavaEnvUtils.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/FileUtils.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/JAXPUtils.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/FileUtils.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/KeepAliveInputStream.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/KeepAliveOutputStream.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/LazyFileOutputStream.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/LazyHashtable.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/LeadPipeInputStream.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/LineOrientedOutputStream.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/LineTokenizer.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/Tokenizer.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/LoaderUtils.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/FileUtils.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/MergingMapper.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/FileNameMapper.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/optional/JavaxScriptRunner.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/optional/NoExitSecurityManager.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/optional/WeakishReference12.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/OutputStreamFunneler.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/PackageNameMapper.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/GlobPatternMapper.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/PropertyOutputStream.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/ProxySetup.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/ReaderInputStream.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/ReflectUtil.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/ReflectWrapper.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/ReflectUtil.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/JakartaOroMatcher.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/RegexpUtil.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/RegexpMatcher.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/JakartaOroRegexp.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/RegexpUtil.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/JakartaOroMatcher.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/Regexp.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/JakartaRegexpMatcher.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/RegexpUtil.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/RegexpMatcher.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/JakartaRegexpRegexp.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/RegexpUtil.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/JakartaRegexpMatcher.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/Regexp.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/Jdk14RegexpMatcher.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/RegexpUtil.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/RegexpMatcher.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/Jdk14RegexpRegexp.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/RegexpUtil.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/Jdk14RegexpMatcher.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/Regexp.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/Regexp.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/RegexpMatcher.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/RegexpFactory.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/RegexpMatcherFactory.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/Regexp.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/RegexpMatcher.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/RegexpMatcherFactory.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/RegexpMatcher.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/regexp/RegexpUtil.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/RegexpPatternMapper.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/FileNameMapper.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/ResourceUtils.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/FileUtils.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/LineTokenizer.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/FileNameMapper.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/Retryable.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/RetryHandler.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/Retryable.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/ScriptRunnerBase.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/FileUtils.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/ScriptRunnerCreator.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/LoaderUtils.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/ScriptRunnerBase.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/ReflectUtil.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/ScriptRunnerHelper.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/ScriptRunnerBase.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/ClasspathUtils.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/ScriptRunnerCreator.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/SourceFileScanner.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/FileUtils.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/FileNameMapper.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/ResourceUtils.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/StringTokenizer.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/Tokenizer.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/StringUtils.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/StringUtils.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/TaskLogger.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/TeeOutputStream.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/TimeoutObserver.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/Watchdog.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/Tokenizer.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/UnPackageNameMapper.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/GlobPatternMapper.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/UUEncoder.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/Watchdog.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/TimeoutObserver.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/WeakishReference.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/XmlConstants.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/util/XMLFragment.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/util/JAXPUtils.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/ant/XmlLogger.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildLogger.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Project.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Task.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildException.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/Target.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/BuildEvent.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/UnknownElement.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/ant/DefaultLogger.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/bzip2/BZip2Constants.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/bzip2/CBZip2InputStream.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/bzip2/BZip2Constants.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/bzip2/CRC.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/bzip2/CBZip2OutputStream.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/bzip2/BZip2Constants.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/bzip2/CRC.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/bzip2/CRC.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/mail/ErrorInQuitException.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/mail/MailMessage.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/mail/SmtpResponseReader.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/mail/ErrorInQuitException.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/mail/SmtpResponseReader.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/tar/TarBuffer.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/tar/TarConstants.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/tar/TarEntry.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/tar/TarConstants.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/tar/TarUtils.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/tar/TarInputStream.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/tar/TarBuffer.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/tar/TarEntry.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/tar/TarOutputStream.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/tar/TarBuffer.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/tar/TarEntry.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/tar/TarConstants.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/tar/TarUtils.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/zip/AsiExtraField.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/ZipLong.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/ZipShort.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/ZipExtraField.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/UnixStat.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/zip/ExtraFieldUtils.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/AsiExtraField.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/JarMarker.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/ZipShort.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/ZipExtraField.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/UnrecognizedExtraField.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/zip/JarMarker.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/ZipShort.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/ZipExtraField.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/zip/UnixStat.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/zip/UnrecognizedExtraField.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/ZipShort.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/ZipExtraField.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/zip/ZipEntry.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/ExtraFieldUtils.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/ZipShort.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/ZipExtraField.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/zip/ZipExtraField.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/ZipShort.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/zip/ZipFile.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/ZipLong.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/ZipEntry.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/ZipOutputStream.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/ZipShort.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/zip/ZipLong.java" />
+  <file path="$PROJECT_DIR$/org/apache/tools/zip/ZipOutputStream.java">
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/ZipLong.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/ZipEntry.java" />
+    <dependency path="$PROJECT_DIR$/org/apache/tools/zip/ZipShort.java" />
+  </file>
+  <file path="$PROJECT_DIR$/org/apache/tools/zip/ZipShort.java" />
+</root>
